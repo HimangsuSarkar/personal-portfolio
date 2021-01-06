@@ -70,7 +70,7 @@ section{
 
 .inquiry{
   margin-top: 8%;
-  height: 500px;
+  height: 300px;
  
 }
 .inquiry-container{
@@ -88,4 +88,31 @@ section{
     position: absolute;
     top:40%;
     right:40px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+footer h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+footer ul{
+    list-style-type: none;
+
+}
+footer ul li{
+    display: inline-block;
+    
+}
+footer ul li a{
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+}
+footer ul li a img{
+    width: 50%;
 }
